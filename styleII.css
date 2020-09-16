@@ -1,0 +1,42 @@
+/*Created by Shelley Ophir
+Coding Dojo Sep. 15,2020
+Recreate the layout in the photo using flexbox*/
+
+
+div{
+    background: #6495ed;
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-size: 9px;
+    height: 61px;
+  }
+  
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: 517px;
+  }
+  
+  img{
+    width: 44px;
+    margin: 15px 0;
+  }
+  
+  a{
+    color:white;
+    text-decoration: none;/*removes underline*/
+  }
+  
+  li{
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  h1{
+    font-size: 13px;
+    margin-left: 34px;
+  }
+  

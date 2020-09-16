@@ -1,0 +1,20 @@
+/*Created by Shelley Ophir
+Coding Dojo Sep. 15,2020
+Recreate the layout in the photo using flexbox*/
+
+.center-box{
+    background: blue;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-item{
+    background: tan;
+    height: 60px;
+    width: 60px;
+  }
+  
+  
